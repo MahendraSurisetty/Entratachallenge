@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-24T15:26:36 IST" name="Suite" finished-at="2024-10-24T15:27:14 IST" duration-ms="37397">
+    <groups>
+    </groups>
+    <test started-at="2024-10-24T15:26:36 IST" name="Test" finished-at="2024-10-24T15:26:50 IST" duration-ms="13955">
+      <class name="VerifyPageTitle">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:VerifyPageTitle@221a3fa4]" started-at="2024-10-24T15:26:36 IST" name="setUp" finished-at="2024-10-24T15:26:39 IST" duration-ms="2482" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyTitle()[pri:0, instance:VerifyPageTitle@221a3fa4]" started-at="2024-10-24T15:26:39 IST" name="verifyTitle" finished-at="2024-10-24T15:26:50 IST" duration-ms="10934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:VerifyPageTitle@221a3fa4]" started-at="2024-10-24T15:26:50 IST" name="tearDown" finished-at="2024-10-24T15:26:50 IST" duration-ms="321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- VerifyPageTitle -->
+    </test> <!-- Test -->
+    <test started-at="2024-10-24T15:26:50 IST" name="Test1" finished-at="2024-10-24T15:27:14 IST" duration-ms="23382">
+      <class name="VerifyTest">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:VerifyTest@4f32a3ad]" started-at="2024-10-24T15:26:50 IST" name="beforeTest" finished-at="2024-10-24T15:27:04 IST" duration-ms="14070" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="f()[pri:0, instance:VerifyTest@4f32a3ad]" started-at="2024-10-24T15:27:04 IST" name="f" finished-at="2024-10-24T15:27:13 IST" duration-ms="8977" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:VerifyTest@4f32a3ad]" started-at="2024-10-24T15:27:13 IST" name="afterTest" finished-at="2024-10-24T15:27:14 IST" duration-ms="332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- VerifyTest -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>

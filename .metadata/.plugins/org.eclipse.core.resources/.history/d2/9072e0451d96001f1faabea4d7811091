@@ -1,0 +1,45 @@
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeTest;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterTest;
+
+public class tc3 {
+
+	WebDriver driver;
+
+	@BeforeTest
+	public void beforeTest() throws InterruptedException {
+		System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
+		driver = new ChromeDriver();
+		driver.get("https://www.entrata.com");
+		driver.manage().window().maximize();
+		WebElement popup = driver.findElement(By.xpath("/html/body/div[3]/div[2]/a[1]"));
+		popup.click();
+		Thread.sleep(2000);
+
+	}
+
+	@Test
+	public void f() throws InterruptedException {
+
+		WebElement see = driver.findElement(By.xpath("/html[1]/body[1]/section[1]/div[5]/div[1]/a[1]"));
+		see.click();
+		Thread.sleep(3000);
+		WebElement watch = driver.findElement(By.xpath("/html[1]/body[1]/section[1]/div[1]/div[1]/div[2]/div[2]/a[1]"));
+		watch.click();
+		Thread.sleep(2000);
+		WebElement videoplay = driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[7]/div[8]/div[1]/button[1]/*[name()='svg'][1]/*[name()='path'][1]"));
+		videoplay.click();
+		Thread.sleep(4000);
+
+	}
+
+	@AfterTest
+	public void afterTest() {
+		driver.quit();
+	}
+
+}

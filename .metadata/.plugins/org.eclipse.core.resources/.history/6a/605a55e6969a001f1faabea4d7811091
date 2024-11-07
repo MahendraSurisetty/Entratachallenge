@@ -1,0 +1,29 @@
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.AfterTest;
+
+public class tc4 {
+  @BeforeTest
+  public void beforeTest() {
+  }
+
+  @AfterTest
+  public void afterTest() {
+  }
+
+
+  @Test
+  public void afterTestTest() {
+    throw new RuntimeException("Test not implemented");
+  }
+
+  @Test
+  public void beforeTestTest() {
+    throw new RuntimeException("Test not implemented");
+  }
+
+  @Test
+  public void fTest() {
+    throw new RuntimeException("Test not implemented");
+  }
+}
